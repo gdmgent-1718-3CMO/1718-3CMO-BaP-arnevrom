@@ -4,7 +4,7 @@
 
 # Site settings
 # ─────────────
-baseurl: /1718-BaP # the subpath of your site, e.g. /blog
+baseurl: /1718-3CMO-BaP-arnevrom
 # host   : 127.0.0.1
 # port   : 4000
 
@@ -21,7 +21,7 @@ defaults:
     values:
       layout: vertical
 
-exclude:
+exclude:s
   - Gemfile
   - README.md
 
