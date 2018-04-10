@@ -1,0 +1,50 @@
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.btn {
+  background-color: white;
+  color: green;
+  padding: 1.5rem 2rem;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  border-radius: 1rem;
+    transition: all .25s;
+}
+
+.bg {
+  background-image: url("../images/button.png");
+background-size:cover;
+
+  width: inherit;
+  height: 5rem;
+  border-radius: .8rem;
+  margin-top: -4.5rem;
+  margin-left: .5rem;
+
+}
+
+.button {
+  width:15rem;
+}
+
+.btn:hover {
+  background-color: green;
+  color: green($color: #000000);
+}

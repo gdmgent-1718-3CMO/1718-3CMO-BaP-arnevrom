@@ -8,19 +8,44 @@
   # fa-icon: icon-info
 
 - name: Logo
-  description: Logo
-  folder: pages/logo/
-  permalink: logo/
-  # fa-icon: icon-graduation-cap
-
-- name: Kleur
-  description: Kleur
-  folder: pages/kleur/
-  permalink: kleur/
+  description: Stijlgids voor de Huistijlgids
+  # folder: pages/
+  permalink: /logo
   # fa-icon: icon-info
 
-- name: Styleguide
+- name: Kleur
   description: Stijlgids voor de Huistijlgids
-  # folder: pages/stijlgids
-  permalink: /stijlgids
+  # folder: pages/
+  permalink: /kleur
+  # fa-icon: icon-info
+
+- name: Typografie
+  description: Stijlgids voor de Huistijlgids
+  # folder: pages/
+  permalink: /typografie
+  # fa-icon: icon-info
+
+- name: Grafisch
+  description: Stijlgids voor de Huistijlgids
+  # folder: pages/
+  permalink: /grafisch
+  # fa-icon: icon-info
+
+- name: Beeldtaal
+  description: Stijlgids voor de Huistijlgids
+  # folder: pages/
+  permalink: /beeldtaal
+  # fa-icon: icon-info
+
+
+- name: Templates
+  description: Templates
+  folder: pages/templates/
+  permalink: templates/
+  # fa-icon: icon-graduation-cap
+
+- name: Contact
+  description: Contact
+  # folder: pages/contact
+  permalink: /contact
   # fa-icon: icon-info

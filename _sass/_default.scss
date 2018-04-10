@@ -1,28 +1,133 @@
 // default-styling
+/* Bold */
+@font-face {
+    font-family: 'Gotham';
+    src: url('assets/fonts/Gotham-Bold.eot');
+    src: url('assets/fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/Gotham-Bold.woff') format('woff'),
+         url('assets/fonts/Gotham-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+/* Bold+Italic */
+@font-face {
+    font-family: 'Gotham';
+    src: url('assets/fonts/Gotham-BoldItalic.eot');
+    src: url('assets/fonts/Gotham-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/Gotham-BoldItalic.woff') format('woff'),
+         url('assets/fonts/Gotham-BoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+/* Normal */
+@font-face {
+    font-family: 'Gotham';
+    src: url('assets/fonts/Gotham-Book.eot');
+    src: url('assets/fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/Gotham-Book.woff') format('woff'),
+         url('assets/fonts/Gotham-Book.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Regular */
+@font-face {
+    font-family: 'Gotham';
+    src: url('assets/fonts/Gotham-Medium.eot');
+    src: url('assets/fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/Gotham-Medium.woff') format('woff'),
+         url('assets/fonts/Gotham-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+}
+
+/* Regular+Italic */
+@font-face {
+    font-family: 'Gotham';
+    src: url('assets/fonts/Gotham-MediumItalic.eot');
+    src: url('assets/fonts/Gotham-MediumItalic.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/Gotham-MediumItalic.woff') format('woff'),
+         url('assets/fonts/Gotham-MediumItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: bolder;
+    text-rendering: optimizeLegibility;
+}
+
+/* Normal+Italic */
+@font-face {
+    font-family: 'Gotham';
+    src: url('assets/fonts/Gotham-BookItalic.eot');
+    src: url('assets/fonts/Gotham-BookItalic.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/Gotham-BookItalic.woff') format('woff'),
+         url('assets/fonts/Gotham-BookItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Thin */
+@font-face {
+    font-family: 'Gotham';
+    src: url('assets/fonts/Gotham-Thin.eot');
+    src: url('assets/fonts/Gotham-Thin.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/Gotham-Thin.woff') format('woff'),
+         url('assets/fonts/Gotham-Thin.ttf') format('truetype');
+    font-style: normal;
+    font-weight: lighter;
+    text-rendering: optimizeLegibility;
+}
+
+/* Thin+Italic*/
+@font-face {
+    font-family: 'Gotham';
+    src: url('assets/fonts/Gotham-ThinItalic.eot');
+    src: url('assets/fonts/Gotham-ThinItalic.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/Gotham-ThinItalic.woff') format('woff'),
+         url('assets/fonts/Gotham-ThinItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: lighter;
+    text-rendering: optimizeLegibility;
+}
+
+
 
 body {
-    font-family: $myfont-family-base;
-    font-weight: $font-weight-base;
+    font-family: 'Gotham';
+    font-weight: normal;
     font-size: $font-size-base;
     line-height: $lineheight-base;
     background-color: $body-bg;
     color: $body-color;
 }
 
+p{
+    font-family: 'Gotham';
+    font-weight: 300;
+    font-size: 1rem;
+    
+}
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: $myfont-family-title;
-    font-weight: $font-weight-bold;
+    font-family: 'Gotham';
+    font-weight: bold;
 }
 
 h1 {
-    font-weight: $font-weight-light;
+    font-weight: bold;
     font-size: 4rem;
-    color: $color-grey-2;
+    color: $color-white;
 }
 h2 {
-    font-weight: $font-weight-light;
+    font-weight: bold;
     font-size: 2rem;
     margin: 2rem 0 1rem;
+    color: $mycolor-2;
 }
 h3, h4, h5, h6 {
     font-size: 1rem;
@@ -83,7 +188,7 @@ main ol {
         background-color: $mycolor-5;
         color: $color-white;
         font-family: $myfont-family-title;
-        font-weight: $font-weight-bold;
+        font-weight: normal;
       }    
     }
   }
