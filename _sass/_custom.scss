@@ -8,6 +8,7 @@ body {background-color: $mycolor-1;
 .alt h1 {color: $color-grey-4;}
 .alt p {color: $color-grey-4;}
 
+
 .containter-fluid{padding-top: 5rem!important}
 .containter-fluid{
 
@@ -67,8 +68,20 @@ nav[data-toggle=toc] .nav>li>a {color: white;}
   -webkit-transition:.5s;
 
   transition:.5s;}
-.dropdown-menu {background-color: transparent; border: none;}
-.dropdown-item {color: white; font-weight: 300;}
+.dropdown-menu {background-color: transparent; border: none;
+}
+.dropdown-item {color: #ee958d; font-weight: 300;  
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;}
+.dropdown-item.active, .dropdown-item:active {color: black;
+background-color: transparent;}
+.dropdown-item:hover {background-color: transparent;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;}
 .navbar-brand img{max-width: 100%;
 width: 80px;}
 .navbar {padding-top: 6rem;}
@@ -81,6 +94,8 @@ position: fixed;
 float: left;
 z-index: 100;
 }
+
+blockquote {border-left: 3px solid #ee7266;}
 
 @media only screen and (max-width: 769px) {
   #navpadding {
@@ -98,10 +113,23 @@ z-index: 100;
   .text-padding{padding-right: 15px !important;}
   #lightbox{width: 100%;}
 
-  h1 { font-size: 3em;}
+  h1 { font-size: 3em;
+  padding-left: 15px;}
   h2 { font-size: 1.5em;}
+  h3 { font-size: 1.5em;}
   .navbar-brand {visibility: hidden;}
-}
+  .mobile-padding {padding-bottom: 50px;}
+
+  .quarterwidth {width: 100%;}
+  .thirdwidth {width: 60%!important;}
+  .halfwidth {width: 60%!important;}
+
+  .navbar-toggler {position: absolute; 
+  margin-top: 20px;}
+
+  .button {margin-bottom: 40px;}
+
+  }
 #mainNavigation {padding-left: 15px; }
 #margin_left_content {margin-left: 10%;}
 
@@ -226,6 +254,7 @@ padding-bottom: 20px;}
 .img-padding-bottom {padding-bottom: 20px;}
 
 
+
 .template {margin-top: 0px;
 display: flex;}
 .template-text {padding-top: 20px;
@@ -244,7 +273,7 @@ flex: 1;}
 
 .bg-light {background-color:transparent !important;}
 
-.navbar-light .navbar-nav .active>.nav-link, {color: white;}
+.navbar-light .navbar-nav .active>.nav-link, {color: black;}
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {color: white;}
 
 /* FOOTER
